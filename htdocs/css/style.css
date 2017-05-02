@@ -1,0 +1,59 @@
+/*Styla sidan så som du finner bäst. Använd LESS/SASS/CSS,
+återanvänd kunskaper från design-kursen eller använd något ramverk
+liknande Bootstrap, välj själv.*/
+
+/*@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);*/
+
+
+body {
+	/*background-color: yellow;*/
+    background-image: url('../img/sunset.jpg');
+    background-size: auto;
+    background-attachment: fixed;
+    background-position: center;
+
+    /*remove body margin*/
+    margin: 0px;
+    padding: 0px;
+}
+navbar {
+    display: block;
+    margin: 0;
+    padding: 4px 0 4px 0;
+    padding-top: 10px;
+    background: clear;
+    border: 0;
+    /*border-bottom: 2px solid #999999;*/
+}
+
+navbar a {
+    margin: 0;
+    padding: 8px 1em 8px 1em;
+    color: white;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 25px;
+    text-decoration: none;
+    align-self: center;
+}
+
+navbar a:hover {
+    color: #111111;
+    /*background: #999999;*/
+}
+
+navbar a.selected {
+    color: #f5f5f5;
+    /*background: #999999;*/
+}
+
+
+p {
+    text-align: center;
+}
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+/*img nova{
+    margin-left: 50%;
+}*/
