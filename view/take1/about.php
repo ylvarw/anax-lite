@@ -3,10 +3,13 @@
     <p>Denna webbsida är gjord som en del av kursen Oophp på BTH</p>
     <p>Mitt repo för denna kursen finns på <a href="https://github.com/ylvarw/anax-lite">GitHub</a>.</p>
 
-<!-- <p>Detaljerad information om systemet hittar du <a herf="status">här</a></p> -->
+<p>Detaljerad information om systemet hittar du <a href="status" target="_blank">här</a>
+</p>
 
 
-<img src="image/Nova.jpg?w=400" class="nova">
+<img src="image/Nova.jpg?w=400" class="center">
+
+
 
 <!-- Skapa en about-sida där du skriver en rad om denna kursen samt länkar till
 ditt repo på GitHub som innehåller din version av Anax Lite.
